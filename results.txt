@@ -1,0 +1,668 @@
+
+=====================================
+       Naive Algorithm Run Results
+=====================================
+
+Elapsed time: 261.255 seconds
+
+Theoretical runtime (Naive): O(t)
+
+
+
+============================================
+      Basic Configuration Search Results
+============================================
+
+Text size: 100M
+Number of combinations: 43758
+Number of configurations (before reduction): 5
+Number of configurations (after reduction):  3
+
+Elapsed time: 5.0342 seconds
+
+Theoretical speedup over naive (Basic MCS): 390.578x
+
+MCS of M = 3:
+100011
+100101
+111
+
+
+
+============================================
+      Basic Configuration Search Results
+============================================
+
+Text size: 100M
+Number of combinations: 43758
+Number of configurations (before reduction): 12
+Number of configurations (after reduction):  11
+
+Elapsed time: 0.611318 seconds
+
+Theoretical speedup over naive (Basic MCS): 3488.37x
+
+MCS of M = 4:
+100000001011
+100000001101
+10000000111
+10000111
+1000111
+1001011
+1001101
+1010101
+10111
+1110001
+111001
+
+
+
+============================================
+      Basic Configuration Search Results
+============================================
+
+Text size: 100M
+Number of combinations: 43758
+Number of configurations (before reduction): 53
+Number of configurations (after reduction):  35
+
+Elapsed time: 0.0818671 seconds
+
+Theoretical speedup over naive (Basic MCS): 30622.1x
+
+MCS of M = 5:
+1000000001111
+1000000010111
+1000000011011
+1000100111
+1000101101
+1001101001
+1001110001
+10011101
+101001011
+10101011
+101011001
+10101101
+101100011
+1011010001
+101110001
+10111001
+1011101
+110011001
+11001101
+110100011
+1101010001
+11010101
+1101100001
+110110001
+11011001
+110111
+111000011
+111001001
+11100101
+111010001
+11101001
+111100001
+11110001
+111101
+11111
+
+
+
+============================================
+    Weighted Configuration Search Results
+============================================
+
+Text size: 100M
+Number of configurations (after reduction):  2
+
+Elapsed time: 4.73125 seconds
+
+Theoretical speedup over naive (Weighted MCS): 532.606x
+
+MCS of M = 3:
+1011
+111
+
+
+
+============================================
+    Weighted Configuration Search Results
+============================================
+
+Text size: 100M
+Number of configurations (after reduction):  8
+
+Elapsed time: 0.441157 seconds
+
+Theoretical speedup over naive (Weighted MCS): 4861.45x
+
+MCS of M = 4:
+10111
+1100101
+110100001
+111001
+1010001001
+1101001
+1000100011
+100000101001
+
+
+
+============================================
+    Weighted Configuration Search Results
+============================================
+
+Text size: 100M
+Number of configurations (after reduction):  25
+
+Elapsed time: 0.0476685 seconds
+
+Theoretical speedup over naive (Weighted MCS): 49712.9x
+
+MCS of M = 5:
+110111
+11010011
+110010101
+11010000011
+1100000001011
+1010000100011
+111001001
+10100010011
+1001000111
+1100010000101
+11111
+1101011
+1010000010101
+1100100101
+1000100000111
+101000010011
+101111
+11000101001
+111001000001
+100001001011
+1000110000011
+100010000111
+1100000101001
+111011
+1000000101101
+
+
+
+
+
+
+============================================
+    Positional associated MCS Results
+============================================
+
+Text size: 100M
+Elapsed time: 0.567756 seconds
+
+MCS of M = 3:
+Number of MCS sets: 17
+Total configurations across all MCS sets: 33
+Theoretical speedup over naive (Positional MCS): 532.606x
+
+Number of MCS sets: 17
+
+MCS #1 - number of configurations: 2
+    1011
+    111
+
+MCS #2 - number of configurations: 2
+    1011
+    111
+
+MCS #3 - number of configurations: 2
+    1011
+    111
+
+MCS #4 - number of configurations: 2
+    1011
+    111
+
+MCS #5 - number of configurations: 2
+    1011
+    111
+
+MCS #6 - number of configurations: 2
+    1011
+    111
+
+MCS #7 - number of configurations: 2
+    1011
+    111
+
+MCS #8 - number of configurations: 2
+    1011
+    111
+
+MCS #9 - number of configurations: 2
+    1011
+    111
+
+MCS #10 - number of configurations: 2
+    1011
+    111
+
+MCS #11 - number of configurations: 2
+    1011
+    111
+
+MCS #12 - number of configurations: 2
+    1011
+    111
+
+MCS #13 - number of configurations: 2
+    1011
+    111
+
+MCS #14 - number of configurations: 2
+    1011
+    111
+
+MCS #15 - number of configurations: 2
+    1011
+    111
+
+MCS #16 - number of configurations: 2
+    1011
+    111
+
+MCS #17 - number of configurations: 1
+    111
+
+
+
+
+============================================
+    Positional associated MCS Results
+============================================
+
+Text size: 100M
+Elapsed time: 0.0541588 seconds
+
+MCS of M = 4:
+Number of MCS sets: 15
+Total configurations across all MCS sets: 72
+Theoretical speedup over naive (Positional MCS): 6346.89x
+
+Number of MCS sets: 15
+
+MCS #1 - number of configurations: 8
+    10111
+    1100101
+    110100001
+    111001
+    1010001001
+    1101001
+    1000100011
+    100000101001
+
+MCS #2 - number of configurations: 7
+    10111
+    1100101
+    110100001
+    1010001001
+    1101001
+    1000100011
+    100000101001
+
+MCS #3 - number of configurations: 7
+    10111
+    1100101
+    110100001
+    1010001001
+    1101001
+    1000100011
+    100000101001
+
+MCS #4 - number of configurations: 7
+    10111
+    1100101
+    110100001
+    1010001001
+    1101001
+    1000100011
+    100000101001
+
+MCS #5 - number of configurations: 7
+    10111
+    1100101
+    110100001
+    1010001001
+    1101001
+    1000100011
+    100000101001
+
+MCS #6 - number of configurations: 6
+    10111
+    1100101
+    110100001
+    1010001001
+    1000100011
+    100000101001
+
+MCS #7 - number of configurations: 6
+    10111
+    1100101
+    110100001
+    1010001001
+    1000100011
+    100000101001
+
+MCS #8 - number of configurations: 6
+    10111
+    1100101
+    110100001
+    1010001001
+    1000100011
+    100000101001
+
+MCS #9 - number of configurations: 5
+    10111
+    1100101
+    110100001
+    1010001001
+    1000100011
+
+MCS #10 - number of configurations: 5
+    10111
+    1100101
+    110100001
+    1010001001
+    1000100011
+
+MCS #11 - number of configurations: 2
+    10111
+    1100101
+
+MCS #12 - number of configurations: 2
+    10111
+    1100101
+
+MCS #13 - number of configurations: 2
+    10111
+    1100101
+
+MCS #14 - number of configurations: 1
+    10111
+
+MCS #15 - number of configurations: 1
+    10111
+
+
+
+
+============================================
+    Positional associated MCS Results
+============================================
+
+Text size: 100M
+Elapsed time: 0.0147211 seconds
+
+MCS of M = 5:
+Number of MCS sets: 15
+Total configurations across all MCS sets: 222
+Theoretical speedup over naive (Positional MCS): 53519.7x
+
+Number of MCS sets: 15
+
+MCS #1 - number of configurations: 25
+    110111
+    11010011
+    110010101
+    11010000011
+    1100000001011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    1100010000101
+    11111
+    1101011
+    1010000010101
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    111001000001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #2 - number of configurations: 25
+    110111
+    11010011
+    110010101
+    11010000011
+    1100000001011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    1100010000101
+    11111
+    1101011
+    1010000010101
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    111001000001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #3 - number of configurations: 25
+    110111
+    11010011
+    110010101
+    11010000011
+    1100000001011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    1100010000101
+    11111
+    1101011
+    1010000010101
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    111001000001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #4 - number of configurations: 24
+    110111
+    11010011
+    110010101
+    11010000011
+    1100000001011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    11111
+    1101011
+    1010000010101
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    111001000001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #5 - number of configurations: 23
+    110111
+    11010011
+    110010101
+    11010000011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    11111
+    1101011
+    1010000010101
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    111001000001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #6 - number of configurations: 22
+    110111
+    11010011
+    110010101
+    11010000011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    11111
+    1101011
+    1010000010101
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #7 - number of configurations: 21
+    110111
+    11010011
+    110010101
+    11010000011
+    1010000100011
+    111001001
+    10100010011
+    1001000111
+    11111
+    1101011
+    1100100101
+    1000100000111
+    101000010011
+    101111
+    11000101001
+    100001001011
+    1000110000011
+    100010000111
+    1100000101001
+    111011
+    1000000101101
+
+MCS #8 - number of configurations: 16
+    110111
+    11010011
+    110010101
+    11010000011
+    111001001
+    10100010011
+    1001000111
+    11111
+    1101011
+    1100100101
+    101000010011
+    101111
+    11000101001
+    100001001011
+    100010000111
+    111011
+
+MCS #9 - number of configurations: 12
+    110111
+    11010011
+    110010101
+    11010000011
+    111001001
+    10100010011
+    1001000111
+    11111
+    1100100101
+    101111
+    11000101001
+    111011
+
+MCS #10 - number of configurations: 8
+    110111
+    11010011
+    110010101
+    111001001
+    1001000111
+    11111
+    101111
+    111011
+
+MCS #11 - number of configurations: 7
+    110111
+    11010011
+    110010101
+    111001001
+    11111
+    101111
+    111011
+
+MCS #12 - number of configurations: 5
+    110111
+    11010011
+    11111
+    101111
+    111011
+
+MCS #13 - number of configurations: 4
+    110111
+    11111
+    101111
+    111011
+
+MCS #14 - number of configurations: 4
+    110111
+    11111
+    101111
+    111011
+
+MCS #15 - number of configurations: 1
+    11111
+
+
+
+
+
+
