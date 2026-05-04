@@ -1,8 +1,8 @@
 # HW1-k-mismatch-string-matching
 ## Project Overview
-This project implements and compares multiple algorithms for **approximate string matching** with up to **k mismatches** in large-scale text (up to 100MB).
+This project implements and compares multiple algorithms for **string matching** with up to **k mismatches** in large-scale text (up to 100MB).
 
-The focus is on improving performance over naive search by leveraging advanced techniques based on **Maximal Common Substrings (MCS)** and optimized configuration-based filtering.
+The focus is on improving performance over naive search by leveraging advanced techniques based on MCS and optimized configuration-based filtering.
 
 ---
 
